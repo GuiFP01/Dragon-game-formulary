@@ -1,0 +1,15 @@
+@import "all-pages.css";
+
+/*    FORM Structure    */
+
+.form-container {
+    width: 26.667em;
+    height: 26.667em;
+    padding: 5.3em 2.5em 2.5em 2.5em;
+}
+
+/*    BUTTON    */
+
+.form-container input[type="submit"] {
+    margin: 3.333em 7.133em 1em 4.8em;
+}

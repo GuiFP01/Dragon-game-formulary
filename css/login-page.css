@@ -1,0 +1,50 @@
+@import "all-pages.css";
+
+/*    FORM Structure    */
+
+.form-container {
+    width: 26.667em;
+    height: 26.667em;
+    padding: 2.5em;
+}
+
+/*    NEW USER & FORGOT PASSWORD    */
+
+.newuser {
+    position: absolute;
+    font-size: 0.600em;
+}
+.nopassword {
+    position: absolute;
+    font-size: 0.600em;
+    margin-top: 1.833em;
+}
+
+.newuser a, .nopassword a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*    CHECKBOX    */
+
+.form-container .checkbox-container {
+    position: absolute;
+    padding: 0;
+    font-size: 0.625em;
+    color: #ffffff;
+    left: 29em;
+}
+
+/*    BUTTON    */
+
+.form-container input[type="submit"] {
+    margin: 4.500em 9em 0 5.300em;
+}
+
+
+
+
+
+
+
+

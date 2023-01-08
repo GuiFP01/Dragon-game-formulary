@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon World - new user</title>
+    <link rel="stylesheet" href="css/newuser-page.css">
+    <link rel="stylesheet" href="css/all-pages.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/dragon-icon.png">
+</head>
+<body>
+    
+    <img src="images/dragon-logo2.png" class="dragonlogo2" alt="Logo preto da cabeça de um dragão em desenho">
+
+    <form class="form-container-newuser">
+
+        <h2><a href="login-page.html">Dragon World</a></h2>
+        <h3>- new user -</h3>
+
+        <div class="data-container">
+            <input type="text" name="fullname" id="fullname" required>
+            <label for="fullname">Full name</label>
+        </div>
+
+        <div class="data-container">
+            <input type="email, text" name="email" id="useremail" autocomplete="off" required>
+            <label for="useremail">Email</label>
+        </div>
+
+        <div class="data-container">
+            <input type="password" name="password" id="userpwr" required>
+            <label for="userpwr">Password</label>
+        </div>
+
+        <div class="data-birthday">
+            <label for="birthday" class="birthlabel">Birthday: </label><input type="date" name="birthday" id="birthday" required>
+        </div>
+
+        <fieldset class="dragons-container">
+            <legend>What kind of Dragon will be <strong>you</strong>?</legend>
+            <div class="dragonkindcel">
+                <label for="celestialdragon"><input type="radio" name="dragon" value="celestialdragon" id="celestialdragon" required> Celestial</label>
+            </div>
+            <div class="dragonkindinf">
+                <label for="infernaldragon"><input type="radio" name="dragon" value="infernaldragon" id="infernaldragon" required> Infernal</label>
+            </div>
+        </fieldset>
+
+        <input type="submit" value="Sign up!">
+
+        <p class="backtologin"><a href="login-page.html">Back to Login page</a></p>
+
+    </form>
+
+</body>
+</html>

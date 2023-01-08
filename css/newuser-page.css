@@ -1,0 +1,95 @@
+@import "all-pages.css";
+
+/*    FORM Structure    */
+
+.form-container-newuser {
+    width: 26.667em;
+    height: 41.5;
+    padding: 2.5em;
+}
+
+/*    BIRTHDAY AREA    */
+
+.form-container-newuser .data-birthday {
+    position: relative;
+    vertical-align: middle;
+}
+
+.form-container-newuser .data-birthday label {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    letter-spacing: 0.067em;
+    font-size: 0.867em;
+    padding: 0.667em 0;
+}
+
+.form-container-newuser .data-birthday input {
+    background: transparent;
+    border: none;
+    margin-bottom: 0.667em;
+    color: #ffffff;
+    letter-spacing: 0.067em;
+    font-size: 0.867em;
+    outline: none;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.form-container-newuser .data-birthday .birthlabel {
+    margin-right: 0.5em;
+}
+
+/*    BUTTON    */
+
+.form-container-newuser input[type="submit"] {
+    margin: 2em 7.133em 0 4.7em;
+}
+
+/*    BACK TO LOGIN PAGE    */
+
+.backtologin {
+    position: absolute;
+    font-size: 0.667em;
+    left: 49.5%;
+    transform: translate(-50%);
+    margin-top: 0.467em;
+}
+
+.backtologin a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*    DRAGONS FIELDSET    */
+
+.dragons-container {
+    position: relative;
+    border: none;
+    color: #ffffff;
+    letter-spacing: 0.067em;
+    font-size: 1em;
+    padding: 0.667em 0;
+    text-align: center;
+    margin-top: 1.333em;
+}
+
+.dragons-container legend {
+    padding: 0.667em 0 1.333em 0;
+    font-size: 1.09em;
+}
+
+.dragons-container .dragonkindcel {
+    display: inline-block;
+    background-color: rgba(0, 0, 250, .2);
+    padding: 0.333em 0.667em;
+    border-radius: 0.667em;
+}
+
+.dragons-container .dragonkindinf {
+    display: inline-block;
+    margin-left: 2em;
+    background-color: rgba(250, 0, 0, .2);
+    padding: 0.333em 0.667em;
+    border-radius: 0.667em;
+}
