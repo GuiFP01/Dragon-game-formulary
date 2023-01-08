@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Cinzel Decorative', cursive;
-    background: url("/images/dragons.jpg");
+    background: url("images/dragons.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -162,7 +162,7 @@ body {
         margin: 0;
         padding: 0;
         font-family: 'Cinzel Decorative', cursive;
-        background: url("/images/background-mobile.jpg");
+        background: url("images/background-mobile.jpg");
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
